@@ -5,3 +5,9 @@ mhsendmail_binary_url: https://github.com/mailhog/mhsendmail/releases/download/v
 
 # Path to daemonize, which is used to launch MailHog via init script.
 mailhog_daemonize_bin_path: /usr/sbin/daemonize
+
+# add some default addresses
+mailhog_smtp_bind_addr: "0.0.0.0:1025"
+mailhog_ui_bind_addr: "0.0.0.0:8025"
+# UI web path
+mailhog_ui_web_path: ""
